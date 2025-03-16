@@ -181,6 +181,16 @@ a:hover {
     border-radius: 10px; 
 }
 
+/* Achievements Section */
+.achievements-container {
+    text-align: left;
+}
+
+.achievements-container ul {
+    margin-left: 34%;
+    margin-top: 30px;
+}
+
 /* Skills Section */
 .skills-container {
     text-align: left;
