@@ -6,16 +6,24 @@ body, h1, h2, h3, p, ul, li, a {
 }
 
 /* General Styles */
-body {
+html, body {
     font-family: 'Arial', sans-serif;
     background-color: #ffffff;
     color: #000000;
     line-height: 1.6;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
 }
 
 div {
     display: flex;
+}
+
+.content {
+    flex: 1;
 }
 
 .section-container {
